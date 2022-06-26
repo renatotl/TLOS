@@ -1,0 +1,23 @@
+{
+  "name": "tlos",
+  "version": "1.0.0",
+  "description": "A game about The Last of Us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatotl/TLOS.git"
+  },
+  "author": "Renato Tenório Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatotl/TLOS/issues"
+  },
+  "homepage": "https://github.com/renatotl/TLOS#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
