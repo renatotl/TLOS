@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'roboto', cursive;
+}
+
+nav{
+    background-color: rgb(253, 252, 252);
+    padding: 1rem;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content:space-around; /* um espaçamento entre os squares */
+    list-style-type: none;/* remove o ponto */
+}
+header h1{
+    text-align: center;/* alinhando h1 */
+    color: rgb(253, 252, 252);
+}
+nav ul li a {
+    text-decoration: none;/* remove o sublinhado*/
+    color: black;
+  }
+nav ul li a:hover {
+color: red;
+}
+.container{
+    display: flex;/* deixa um do lado do outro*/
+    flex-direction:row;
+    flex-wrap: wrap;/* na quebra vai deixar mais responsivo*/
+    justify-content: center;/*deixa no centro*/
+    /* justify-items: center; */
+    gap: 1em;/*espaçamento entre as imagens*/
+    margin: 1rem;/* espacamento entre footer */
+margin-left:15rem;
+margin-right:15rem;
+width: 61%;
+}
+body{
+    background-color: rgb(94, 94, 94);
+}
+
+.item{ /* stilizando os itens como shadow etc */
+    
+    position:relative;
+
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:20%;
+}
+.item img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+footer{
+background-color:rgb(253, 252, 252) ;
+padding: 2rem;
+text-align: center;/* alinhou meu <p> no centro */
+width: 100%;
+/* ajuda a deixar nosso footer em baixo */
+
+
+}
+
+
+
+.item1{ /* stilizando os itens como shadow etc */
+    left: 18.5rem;
+    top: 6rem;
+    position:absolute;
+
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+}
+
+.item1 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item2{ /* stilizando os itens como shadow etc */
+    left: 29.8rem;
+    top: 6rem;
+    position:absolute;
+
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+}
+
+.item2 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+.item3{ /* stilizando os itens como shadow etc */
+
+left: 41rem;
+top: 6rem;
+position:absolute;
+
+z-index: 1;
+display: flex;
+flex-direction: column;
+padding: .5em;
+/* border: 3px solid black; */
+justify-content: space-between; /* um espaçamento entre os squares */
+background-color: rgb(231, 231, 231);
+box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+border-radius: 10px;/* aredonda novamente */
+/* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+width:13%;
+}
+
+
+.item3 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item4{ /* stilizando os itens como shadow etc */
+
+    left: 52.4rem;
+    top: 6rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+
+
+.item4 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+.item5{ /* stilizando os itens como shadow etc */
+
+    left: 18.5rem;
+    top: 17.5rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+
+.item5 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+.item6{ /* stilizando os itens como shadow etc */
+
+    left: 29.8rem;
+    top: 17.5rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+
+.item6 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+.item7{ /* stilizando os itens como shadow etc */
+
+    left: 41rem;
+    top: 17.5rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+
+.item7 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item8{ /* stilizando os itens como shadow etc */
+
+    left: 52.4rem;
+    top: 17.5rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+.item8 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item9{ /* stilizando os itens como shadow etc */
+
+    left: 18.5rem;
+    top: 29rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+.item9 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+.item10{ /* stilizando os itens como shadow etc */
+
+    left: 29.8rem;
+    top: 28.9rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+
+.item10 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item11{ /* stilizando os itens como shadow etc */
+
+    left: 41rem;
+    top: 28.9rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+.item11 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}
+
+
+.item12{ /* stilizando os itens como shadow etc */
+
+    left: 52.4rem;
+    top: 28.9rem;
+    position:absolute;
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    background-color: rgb(231, 231, 231);
+    box-shadow: 3px 3px 14px -3px rgba(0,0,0,0.7); /* uma leve sombra */
+    border-radius: 10px;/* aredonda novamente */
+    /* width: 10%;deixei o tamanho dos squares do tamanho adequado */
+    width:13%;
+    }
+.item12 img{/* stilizando a imagem*/
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    /* border: 3px solid black; */
+    justify-content: space-between; /* um espaçamento entre os squares */
+    
+    width:100%;/* consegur deixar a foto do tamanho ideal da stylização de cima*/
+    cursor: pointer;
+}

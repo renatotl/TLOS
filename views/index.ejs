@@ -13,7 +13,10 @@
     <nav>
         <ul>
             <li>
-
+               <p>The Last of Us</p>
+            </li>
+            <li>
+                <a href="rota"><p>Score</p></a>
             </li>
         </ul>
     </nav>
@@ -21,44 +24,108 @@
 
     <header>
         <h1>
-            message of header
+            Jogo de figura escondidas
         </h1>
     </header>
 
     <main>
-        <section id="squares">
-            <div>
+        
+        <section>
 
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
         </section>
+
+         <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <% SquareBD.forEach(squares => { %>
+            <div class="item">
+                 <img id="click1" src="<%= squares.imagem %>" alt="foto da figura 1">
+            </div>
+            <div class="item">
+                
+            <img id="click2"src="<%= squares.imagem %>" alt="foto da figura 2">
+             
+            </div>
+            
+            
+            <% }) %>
+        </section>
+
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item1">
+                <img  class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item2">
+                <img  class="black"src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item3">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item4">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item5">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item6">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item7">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item8">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item8">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item9">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item10">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item11">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+        <section class="container"><!-- o SquareBD é o banco de dados e o square  minha table no banco de dados-->
+            <div class="item12">
+                <img class="black" src="/img/images.jpg" alt="foto da figura 1">
+           </div>
+        </section>
+
+
+        <section>
+            <%= valor %>
+
+        </section>
+            
     </main>
 
   <footer>
-
+<p>Desenvolvido por: Renato Tenório Lino</p>
   </footer>
+  <script src="/script.js"></script>
 </body>
 </html>

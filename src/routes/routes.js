@@ -8,3 +8,4 @@ routes.get("/", SquareController.getAll);//listar tudo que tem na rota (cadastra
 
 
 module.exports = routes;//exporto ela para qualquer caminho que nesse caso é FilmeController
+

@@ -1,3 +1,7 @@
+require("dotenv").config();// foi necessário instalar o npm i dotenv para o heroko pegando as configurações do DOTENV e chamando pro projeto
+// o dotenv também guarda variáveis sencivéis
+
+
 const express = require("express");
 // const res = require("express/lib/response");
 
